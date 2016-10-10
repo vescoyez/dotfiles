@@ -47,5 +47,5 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = "valentin.escoyez@gmail;com"
+	email = valentin.escoyez@gmail.com
 	name = valentin escoyez
