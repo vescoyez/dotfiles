@@ -45,4 +45,10 @@
   mergeoptions = --no-edit
 [user]
 	email = valentin.escoyez@gmail.com
-	name = valentin escoyez
+	name = Valentin Escoyez
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
